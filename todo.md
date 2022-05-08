@@ -3,7 +3,7 @@ functionality
 
 -UI
 -get character imgs
--background selector
+-background selector with random pic api
 -display characters
 -action buttons
 -character selector

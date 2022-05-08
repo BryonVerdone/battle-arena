@@ -1,5 +1,40 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  padding:0;	
+  padding: 0;
+}
+body {
+  padding: 2rem;
+  background-image: url(./images/nemek-background2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.player-card {
+  width: 100%;
+  /* height: 100%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img-container {
+  width: 100%;
+}
+.player-img {
+  width: 100%;
+  height: auto;
+}
+.character-container {
+  /* height: auto; */
+  /* width: 100%; */
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  /* width: 175px; */
+  border-radius: 5px;
+  padding: 8px;
 }
